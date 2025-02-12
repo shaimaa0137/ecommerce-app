@@ -23,7 +23,7 @@ jobs:
       - name: Build and Push Frontend Docker Image
         run: |
           docker build -t us.icr.io/e-commerce-app/frontend-app:1.1 ./public
-          docker push us.icr.io/e-commerceapp/frontend-app:1.1
+          docker push us.icr.io/e-commerce-app/frontend-app:1.1
 
       - name: Build and Push Backend Docker Image
         run: |
